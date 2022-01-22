@@ -1,0 +1,14 @@
+.box {
+  position: relative;
+  margin-bottom: 24rpx;
+}
+
+.s {
+  width: 342rpx;
+}
+
+.m {
+  width: 750rpx;
+  padding: 0 24rpx;
+  box-sizing: border-box;
+}

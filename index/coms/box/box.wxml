@@ -1,0 +1,3 @@
+<view class="box {{ item.size === 'big' ? 'm': 's'}}" style="height:{{item.height}}rpx;{{item.size !== 'big' && ('background:' + item.bgColor + ';')}}">
+  <view wx:if="{{ item.size === 'big' }}" class="inner" style="height:{{item.height}}rpx;background:{{item.bgColor}}"></view>
+</view>

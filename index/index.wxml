@@ -1,0 +1,3 @@
+<view class="page">
+  <f-masonry class="masonry" generic:abstract="f-box"></f-masonry>
+</view>

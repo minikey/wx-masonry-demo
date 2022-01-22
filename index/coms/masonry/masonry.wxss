@@ -1,0 +1,23 @@
+.container, .computed-zone {
+	position: relative;
+	overflow: hidden;
+}
+
+.wrapper {
+	position: absolute;
+	top: 0;
+}
+
+.computed-zone {
+  position: fixed;
+  width: 100%;
+	right: 100%;
+	top: 0;
+	overflow: hidden;
+}
+
+.computed-zone .wrapper {
+	position: relative;
+	overflow: hidden;
+	float: left;
+}

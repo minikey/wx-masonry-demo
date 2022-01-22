@@ -1,0 +1,10 @@
+<view class="container" style="height:{{height}}px;">
+	<view wx:for="{{list}}" wx:key="index" style="{{item.style}}" class="wrapper">
+		<abstract item="{{item.data}}"/>
+	</view>
+</view>
+<view wx:if="{{ tmp }}" class="computed-zone">
+	<view class="wrapper">
+		<abstract item="{{tmp}}"/>
+	</view>
+</view>

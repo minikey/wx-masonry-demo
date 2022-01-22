@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "f-masonry": "./coms/masonry/masonry",
+    "f-box": "./coms/box/box"
+  }
+}
